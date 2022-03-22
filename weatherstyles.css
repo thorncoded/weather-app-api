@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #2e4057;
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 120%;
+  }
+  
+  .card {
+    background: #083d77;
+    color: #f6d8ae;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+  }
+  
+  div {
+    display: block;
+  }
+  
+  .search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /*.search-item {
+    margin: 5px auto;
+  } */
+  
+  input.search-bar {
+    border-radius: 20px;
+    transition: 0.1s ease-in-out;
+    background: #7c7c7c2b;
+    border: none;
+    outline: none;
+    color: #da4167;
+    font-family: inherit;
+    font-size: 100%;
+    width: calc(100% - 100px);
+    padding: 0.4em 1em;
+  }
+  
+  input.search-bar:hover {
+    background: #bbbbbb;
+    color: black;
+    font-weight: bold;
+  }
+  
+  button {
+    margin: 0.5em;
+    border-radius: 50%;
+    height: 3em;
+    width: 3em;
+    border: none;
+    outline: none;
+    color: #f4d35e;
+    background: #da4167;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    color: #da4167;
+    background: #f4d35e;
+  }
+  
+  h1.temp {
+    margin: 0;
+    margin-bottom: 0.4em;
+  }
+  
+  .flex {
+    display: flex;
+    align-items: center;  
+  }
+  
+  .units {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .main-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .other-info {
+    background: #da4167;
+    padding: 20px;
+    margin-top: 1em;
+    border-radius: 5px;
+  }
+  .description {
+    text-transform: capitalize;
+    margin-left: 1rem;
+  }
+  
